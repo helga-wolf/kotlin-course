@@ -55,7 +55,7 @@ lateinit var owner: String
 const val wheels: Int = 4
 // тк на заводе делают только легковые машины
 // изм/не изм, тип, способ иниц-ии
-val lazyValue: String by lazy {
+val report: String by lazy {
     ""
 }
 //тк отчет будет запрашивтаься только по мере необх-ти

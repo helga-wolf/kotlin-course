@@ -3,7 +3,7 @@ package org.helgawolf.kotlincourse.lesson5
 fun main(){
 
     printSoundfading(45.0, null)
-printFullCost(100500.0)
+printFullCost(666.0)
     printErrorPressure(null)
 
 }
@@ -14,11 +14,10 @@ fun printSoundfading(beginVolume: Double, coefFading: Double?){
 
 }
 
-fun printFullCost(goodsPrice: Double){
-    var goodsInsurance = (goodsPrice / 100 * 0.5)
-        goodsPrice ?: 50
-    var fullCost = goodsPrice + goodsInsurance
-    println(fullCost)
+fun printFullCost(goodsPrice: Double?, insuranceCoef: Double = 0.005){
+    val defaultGoodsPrice = 50.0
+    val goodsInsurance = ((goodsPrice ?: defaultGoodsPrice) * insuranceCoef)
+    println((goodsPrice ?: defaultGoodsPrice) + goodsInsurance)
 
 }
 

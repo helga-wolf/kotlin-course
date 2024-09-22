@@ -1,6 +1,6 @@
-package org.helgawolf.kotlincourse.lessonsummaries
+package org.helgawolf.kotlincourse.lessonsummaries.lesson5
 
-fun main() {
+fun main1() {
 
     printVolume(userVolume = 100500)
     printVolume(userVolume = null)

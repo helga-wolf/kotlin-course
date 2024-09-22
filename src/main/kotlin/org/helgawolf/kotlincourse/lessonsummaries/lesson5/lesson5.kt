@@ -1,6 +1,6 @@
-package org.helgawolf.kotlincourse.lessonsummaries
+package org.helgawolf.kotlincourse.lessonsummaries.lesson5
 
-fun main() {
+fun mainlol() {
     val sum = 10 + 5
     val diff = 10 - 5
     val product = 10 * 5
@@ -17,9 +17,24 @@ fun main() {
     number -= 1
 
     println(number)
+
 }
 
 //приоритет логич операций:
 //        НЕ
 //        И
 //        ИЛИ
+
+fun lol() {
+
+    var name: String? = null
+
+    val result = name ?: throw IllegalArgumentException("што ета")
+//если null то выполнить то-то
+
+}
+
+fun printVolumelol(userVolume: Int?) {
+    val defaultVolume = 30
+    println(userVolume ?: defaultVolume)
+}

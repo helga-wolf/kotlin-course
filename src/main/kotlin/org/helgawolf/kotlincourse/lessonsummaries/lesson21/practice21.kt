@@ -27,8 +27,8 @@ interface Transformer<A, B>{
 
 //ф-я принимает список указанного типа и 2 интовых индекса
 //внутри списка поменять 2 позиции местами между собой по индексу
-fun<A> swap(list: List<A>, index1: Int, index2: Int): List<A>{}
+//fun<A> swap(list: List<A>, index1: Int, index2: Int): List<A>{}
 
-fun<B> second(list:List<B>, list2:List<B>):List<B>{}
+//fun<B> second(list:List<B>, list2:List<B>):List<B>{}
 
-fun <K, V> toMap(keys:List<K>, values:List<V>): Map<K,V>{}
+//fun <K, V> toMap(keys:List<K>, values:List<V>): Map<K,V>{}
